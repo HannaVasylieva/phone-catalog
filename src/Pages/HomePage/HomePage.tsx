@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
 import { Product } from '../../Helpers/Types/Product';
 import { getProducts } from '../../Helpers/api';

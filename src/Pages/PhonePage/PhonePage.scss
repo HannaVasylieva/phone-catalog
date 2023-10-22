@@ -83,12 +83,22 @@
     border: 1px solid $grey;
     margin-bottom: 24px;
     margin-top: 5px;
+    padding-left: 12px;
+    outline: none;
+    appearance: none;
+    background-image: url(../../Helpers/images/ArrowDown.svg);
+    background-repeat: no-repeat;
+    background-position: 90%;
     transition: all 200ms;
 
     @include onMobile {
       width: 150px;
       height: 40px;
       font-size: 12px;
+    }
+
+    &--small {
+      width: 128px;
     }
 
     &:hover {
@@ -98,6 +108,8 @@
 
     &:focus {
       border-color: $bold;
+      outline: none;
+      background-image: url(../../Helpers/images/ArrowUp.svg);
     }
   }
 

@@ -100,7 +100,7 @@ export const PhonePage: React.FC = () => {
             <select
               value={perPage}
               onChange={handlePerPageChange}
-              className="phone__sorting"
+              className="phone__sorting phone__sorting--small"
             >
               <option key="all" value="all">all</option>
               <option key="4" value="4">4</option>

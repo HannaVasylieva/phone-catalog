@@ -104,7 +104,7 @@ export const TabletsPage: React.FC = () => {
             <select
               value={perPage}
               onChange={handlePerPageChange}
-              className="tablets__sorting"
+              className="tablets__sorting tablets__sorting--small"
             >
               <option key="all" value="all">all</option>
               <option key="4" value="4">4</option>
