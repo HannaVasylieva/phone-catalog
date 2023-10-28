@@ -1,11 +1,6 @@
-# Online Electronics Store
-
-## Project Description:
-
-This project is an online electronics store web application built using React. It allows users to browse and purchase electronic products such as phones, tablets, and accessories. Users can also view product details, add items to their shopping cart, and manage their favorite products. The application provides a responsive and user-friendly interface for a seamless shopping experience.
+E-Store is an online electronics store web application built using React. It allows users to browse and purchase electronic products such as phones, tablets, and accessories. Users can also view product details, add items to their shopping cart, and manage their favorite products. The application provides a responsive and user-friendly interface for a seamless shopping experience.
 
 ## Features:
-
 - Navigation Menu
 - Displaying a catalog of electronic products.
 - Product details page with descriptions and pricing.
@@ -15,12 +10,9 @@ This project is an online electronics store web application built using React. I
 - Search functionality to find products based on user queries.
 - Sorting and pagination options for product listing.
 - User Interaction: The project focuses on user interaction and engagement, with elements such as hover effects on buttons and images to provide an interactive and engaging experience.
-- Slider Functionality: Users can navigate through different feature slides.
-Slider adapts to different screen sizes.
+- Slider Functionality: Users can navigate through different feature slides. Slider adapts to different screen sizes.
 - Hash Change Event: Changing the appearance of the page based on the URL.
-
-## Technologies Used
-
+## Technologies:
 - Responsive Web Design
 - React: The JavaScript library for building user interfaces.
 - React Router: Used for client-side routing to create a multi-page web application.
